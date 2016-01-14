@@ -17,6 +17,14 @@
       private: yes
       confirm: yes
 
+  pre_tasks:
+    - name: Password cannot be blank
+      assert:
+        that: new_mongodb_pass != ''
+    - name: Database owner cannot be MongoDB admin user
+      assert:
+        that: new_mongodb_user != mongodb_admin
+
   roles:
     - MongoDB/Install
     - MongoDB/Manage

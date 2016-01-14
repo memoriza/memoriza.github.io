@@ -14,6 +14,11 @@
       private: yes
       confirm: yes
 
+  pre_tasks:
+    - name: Password cannot be blank
+      assert:
+        that: new_mongodb_pass != ''
+
   roles:
     - MongoDB/Install
     - MongoDB/Manage

@@ -15,6 +15,14 @@
       private: yes
       confirm: yes
 
+  pre_tasks:
+    - name: Password cannot be blank
+      assert:
+        that: new_postgres_pass != ''
+    - name: Database owner cannot be PostgreSQL admin user
+      assert:
+        that: new_postgres_user != postgres_admin
+
   roles:
     - PostgreSQL/Install
     - PostgreSQL/Manage

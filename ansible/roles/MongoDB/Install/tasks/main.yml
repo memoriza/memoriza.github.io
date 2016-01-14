@@ -8,12 +8,12 @@
   sudo: yes
 
 - name: Add APT Key
-  apt_key: keyserver=keyserver.ubuntu.com id=7F0CEB10 state=present
+  apt_key: keyserver=keyserver.ubuntu.com id=EA312927 state=present
   sudo: yes
 
 - name: Add APT Repository
   apt_repository:
-    repo: "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/stable multiverse"
+    repo: "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse"
     state: present
   sudo: yes
 
