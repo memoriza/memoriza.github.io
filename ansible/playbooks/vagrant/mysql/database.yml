@@ -16,6 +16,12 @@
       confirm: yes
 
   pre_tasks:
+    - name: Password cannot be blank
+      assert:
+        that: new_mysql_pass != ''
+    - name: Database owner cannot be MySQL admin user
+      assert:
+        that: new_mysql_user != mysql_admin
     - name: Generate Database Privileges
       set_fact:
         mysql_user_priv: "{{ db_name }}.*:ALL"

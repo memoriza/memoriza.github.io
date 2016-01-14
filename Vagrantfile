@@ -44,8 +44,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
 
     v.vm.provision :ansible do |ansible|
-      ansible.playbook       = "ansible/playbooks/vagrant/init.yml"
-      ansible.extra_vars     = { domain: domain }
+      ansible.playbook   = "ansible/playbooks/vagrant/init.yml"
+      ansible.extra_vars = { domain: domain }
     end
   end
 
