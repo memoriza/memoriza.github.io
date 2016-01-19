@@ -17,7 +17,7 @@
 - name: Create Console User Account
   user:
     name:     "{{ console_user }}"
-    password: "{{ ansible_sudo_pass }}"
+    password: "{{ ansible_sudo_pass | password_hash('sha512') }}"
     shell:    /bin/bash
     state:    present
     groups:   www-data

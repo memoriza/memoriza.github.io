@@ -8,8 +8,6 @@
       prompt:  Sudo Password
       private: yes
       confirm: yes
-      encrypt: md5_crypt
-      salt_size: 7
     - name:    mysql_pass
       prompt:  MySQL Password
       private: yes
@@ -28,7 +26,10 @@
     - name: Production server must be Trusty Tahr or later
       assert:
         that: ansible_distribution_version | version_compare("14.04", ">=")
-    - name: Production passwords cannot be empty
+    - name: Sudo password cannot be empty
+      assert:
+        that: ansible_sudo_pass != ''
+    - name: MySQL password cannot be empty
       assert:
         that: mysql_pass != ''
 

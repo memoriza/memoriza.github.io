@@ -10,6 +10,14 @@
       prompt:  Domain Name (e.g. codeup.com)
       private: no
 
+  pre_tasks:
+    - name: Clean domain name
+      set_fact: "domain={{ domain | trim | lower }}"
+
+    - name: Domains cannot have spaces
+      assert:
+        that: not domain | search("\s")
+
   roles:
     - Python
     - Git-Hook
