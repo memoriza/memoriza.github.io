@@ -1,0 +1,76 @@
+body {
+	
+	background-position: top;
+	background-color: black;
+}
+
+main {
+	position: relative;
+}
+
+.start {
+	color: #CFFFB3;
+	font-style: italic;
+	
+}
+
+.end {
+	color: #D499B9;
+	font-size: 300px;
+}
+
+.gameboard {
+
+	background-color: black;
+	padding-top: 25px;
+	padding-right: 10px;
+	width: 445px;
+	height:460px;
+	border-radius:20px;
+	position: absolute;
+	
+}
+
+.roundcounter {
+	
+	width: 300px;
+	color: #E8C1C5;
+	font-size: 30px;
+	margin: 5px;
+}
+.square {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-color: white;
+	margin: 4px;
+
+}
+
+.down {
+	opacity: .4;
+}
+
+.up {
+	opacity: .75;
+}
+
+.red {
+	background-color: red;
+	border-top-left-radius: 50px;
+}
+
+.blue {
+	background-color: blue;
+	border-top-right-radius: 50px;
+}
+
+.yellow {
+	background-color: yellow;
+	border-bottom-right-radius: 50px;
+}
+
+.green {
+	background-color: green;
+	border-bottom-left-radius: 50px;
+}
