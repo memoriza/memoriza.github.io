@@ -15,7 +15,6 @@ body {
 #jwelcome {
 	color: #DFF3E3;
 	background-image: url(/img/zoom.gif);
-	/*background-color: #E2F1AF;*/
 }
 
 #jwelcome:hover {
@@ -32,15 +31,13 @@ body {
 	padding-top: 25px;
 }
 
-
 /*navigation bar*/
 section.navigation {
 opacity: .75;
 margin-top: 100px;
 height: 150px;
-
-
 }
+
 /*navigation box around name*/
 .navigation {
 	background-color: #FE938C;
