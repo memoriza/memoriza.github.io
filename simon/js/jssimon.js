@@ -20,7 +20,7 @@ function backgroundFade () {
 
 	var bgimage = new Image();
 
-	bgimage.src = "../img/sun.jpg";
+	bgimage.src = "../simon/img/sun.jpg";
 
 	$(bgimage).load(function(){
 
@@ -34,7 +34,7 @@ function audioPlay () {
 
 	backgroundm.canPlayType("audio/mpeg");
 
-	backgroundm.setAttribute("src","/audio/simonsoft.mp3");
+	backgroundm.setAttribute("src","audio/simonsoft.mp3");
 
 	backgroundm.loop = true|false;
 
@@ -46,7 +46,7 @@ function losingAudio () {
 
 	losingm.canPlayType("audio/mpeg");
 
-	losingm.setAttribute("src","/audio/simonend.mp3");
+	losingm.setAttribute("src","audio/simonend.mp3");
 
 	losingm.loop = true|false;
 
@@ -60,7 +60,7 @@ function redAudio () {
 
 	redm.canPlayType("audio/mpeg");
 
-	redm.setAttribute("src","/audio/red.mp3");
+	redm.setAttribute("src","audio/red.mp3");
 
 	redm.play();
 
@@ -70,7 +70,7 @@ function blueAudio () {
 
 	bluem.canPlayType("audio/mpeg");
 
-	bluem.setAttribute("src","/audio/blue.mp3");
+	bluem.setAttribute("src","audio/blue.mp3");
 
 	bluem.play();
 
@@ -80,7 +80,7 @@ function greenAudio () {
 
 	greenm.canPlayType("audio/mpeg");
 
-	greenm.setAttribute("src","/audio/green.mp3");
+	greenm.setAttribute("src","audio/green.mp3");
 
 	greenm.play();
 
@@ -90,7 +90,7 @@ function yellowAudio () {
 
 	yellowm.canPlayType("audio/mpeg");
 
-	yellowm.setAttribute("src","/audio/yellow.mp3");
+	yellowm.setAttribute("src","audio/yellow.mp3");
 
 	yellowm.play();
 
@@ -100,7 +100,7 @@ function userAudio () {
 
 	userm.canPlayType("audio/mpeg");
 
-	userm.setAttribute("src","/audio/userclick.mp3");
+	userm.setAttribute("src","audio/userclick.mp3");
 
 	userm.play();
 
@@ -110,7 +110,7 @@ function roundAudio () {
 
 	roundm.canPlayType("audio/mpeg");
 
-	roundm.setAttribute("src", "/audio/newround.mp3")
+	roundm.setAttribute("src", "audio/newround.mp3")
 
 	roundm.play();
 
@@ -152,7 +152,7 @@ function simonRound () {
 
 	if (roundcounter >= 10) {
 
-		$(".gameboard").css("background-image", "url('../img/wavesofjoy.gif')");
+		$(".gameboard").css("background-image", "url('..simon/img/wavesofjoy.gif')");
 			
 	} else {
 
