@@ -12,7 +12,7 @@ middledisplay.value = "";
 rightdisplay.value = "";
 
 
-// numbers and fucntions
+// numbers and functions
 
 document.getElementById("zero").addEventListener("click", function() {
 	 	if (middledisplay.value == "") {
