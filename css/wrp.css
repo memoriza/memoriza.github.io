@@ -17,6 +17,13 @@ figure.websites:active {
 	background-color: #98473E;
 }
 
+section.contacts {
+	background-color: #E88D67;
+	border-radius: 10px;
+	box-shadow: 0px 1px 15px 1px #011638;
+	margin-bottom: 10px;
+}
+
 }
 .starter-template {
   padding: 40px 15px;
@@ -53,6 +60,7 @@ section.navigation {
 opacity: .75;
 margin-top: 100px;
 height: 150px;
+box-shadow: 0px 5px 15px 5px #011638;
 }
 
 /*navigation box around welcome name*/
@@ -65,6 +73,7 @@ height: 150px;
   text-align: center;
 }
 
+/*navigation button actions*/
 .navbar-static-top div {
 	background-color: #A8BA9A;
 	margin-bottom: 25px;
