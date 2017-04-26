@@ -1,0 +1,88 @@
+
+/*body color for all welcome, resume, and portfolio*/
+body {
+	background-color: #BBBE64;
+	font-family: 'Handlee', cursive;
+}
+/*portfolio website interaction*/
+figure.websites:hover {
+	background-color: #94C595;
+	padding-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 5px 5px black; 
+}
+
+figure.websites:active {
+	color: #EFA9AE;
+	background-color: #98473E;
+}
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/*welcome collapsible button*/
+#jwelcome {
+	color: #DFF3E3;
+	background-image: url(/img/zoom.gif);
+}
+
+#jwelcome:hover {
+	color: #F25C54;
+	background-color: #270722;
+}
+
+#jwelcome:active {
+	color: #61988E;
+}
+
+/*jwsleep image properties*/
+
+#jwsleep {
+	height: 400px;
+	width: 400px;
+	background-image: url(/img/story.gif);
+	padding-top: 25px;
+	box-shadow: 1px 5px 25px 5px black;
+}
+
+/*navigation bar*/
+section.navigation {
+opacity: .75;
+margin-top: 100px;
+height: 150px;
+}
+
+/*navigation box around welcome name*/
+.navigation {
+	background-color: #FE938C;
+	border-radius: 10px;
+}
+
+.navbar-static-top {
+  text-align: center;
+}
+
+.navbar-static-top div {
+	background-color: #A8BA9A;
+	margin-bottom: 25px;
+}
+
+.navbar-static-top div:hover {
+	background-color: #E0EEC6;
+}
+
+.navbar-static-top div a{
+	color: #93032E;
+}
+.navbar-static-top div a:hover {
+	color: #7A4419;
+}
+
+/*font color for all paragraphs*/
+div.row {
+	color: #143109;
+}
+

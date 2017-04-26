@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
@@ -10,3 +11,6 @@ doc/
 
 # Ignore vagrant files
 .vagrant/
+=======
+.DS_Store
+>>>>>>> facf3ca0d21bfeb915c1bcda3b7e6409a945e415
