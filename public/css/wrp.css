@@ -2,14 +2,44 @@
 /*body color for all welcome, resume, and portfolio*/
 
 body {
-	background-color: #BBBE64;
-	font-family: 'Handlee', cursive;
+	
+	
 	font-size: 20px;
 	text-align: center;
+	margin: 0;
+  	height: 1000px;
+	
 }
+
+ .top {
+	
+	
+	margin: 0;
+	position: relative;
+	width: 100%;
+	background-image: url("../img/IMG_5822.jpg");
+	height: 1000px;
+	opacity: 1;
+	text-align: center;
+	font-family: 'Handlee', cursive;
+	font-size: 80px;
+	font-weight: 100;
+	color: #fff;
+
+}
+
+.title {
+	object-fit: fill;
+  	position: absolute;
+  	top: 60%;
+  	left: 100px;
+
+}
+
 /*portfolio website interaction*/
 
 figure.websites:hover {
+
 	background-color: #94C595;
 	padding-top: 10px;
 	border-radius: 10px;
@@ -17,30 +47,18 @@ figure.websites:hover {
 }
 
 figure.websites:active {
+
 	color: #EFA9AE;
 	background-color: #98473E;
+
 }
 
 }
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
 
-/*welcome collapsible button*/
+	padding: 40px 15px;
+	text-align: center;
 
-#jwelcome {
-	color: #DFF3E3;
-	background-image: url(/img/zoom.gif);
-}
-
-#jwelcome:hover {
-	color: #F25C54;
-	background-color: #270722;
-}
-
-#jwelcome:active {
-	color: #61988E;
 }
 
 /*my name .navigation*/
@@ -54,24 +72,37 @@ figure.websites:active {
 /*jwsleep image properties*/
 
 #jwsleep {
+
 	height: 400px;
 	width: 400px;
-	background-image: url(/img/story.gif);
 	padding-top: 25px;
-	box-shadow: 1px 5px 25px 5px black;
+	background-size: 600% 600%;
+
 }
 
 /*navigation box around welcome name*/
 
 .navbar-static-top {
+
   text-align: center;
+
+}
+
+/*welcome blockquote*/
+
+div #welcomeBlockquote {
+
+	background-color: #F1E9DB;
+
 }
 
 /*navigation button actions*/
 
 .navbar-static-top div {
-	background-color: #A8BA9A;
+
+	background-color: #FF784F;
 	margin-bottom: 25px;
+
 }
 
 .navbar-static-top div:hover {
