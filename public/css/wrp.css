@@ -2,38 +2,15 @@
 /*body color for all welcome, resume, and portfolio*/
 
 body {
-	
-	
+
 	font-size: 20px;
 	text-align: center;
 	margin: 0;
-  	height: 1000px;
+  	background-color: white;
+  	min-height: 400px;
+   	margin-bottom: 100px;
+   	clear: both;
 	
-}
-
- .top {
-	
-	
-	margin: 0;
-	position: relative;
-	width: 100%;
-	background-image: url("../img/IMG_5822.jpg");
-	height: 1000px;
-	opacity: 1;
-	text-align: center;
-	font-family: 'Handlee', cursive;
-	font-size: 80px;
-	font-weight: 100;
-	color: #fff;
-
-}
-
-.title {
-	object-fit: fill;
-  	position: absolute;
-  	top: 60%;
-  	left: 100px;
-
 }
 
 /*portfolio website interaction*/
@@ -53,7 +30,29 @@ figure.websites:active {
 
 }
 
+/*portfolio yoga imgs*/
+
+figure img {
+	
+	object-fit:cover;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 300px;
+	width: 300px;
+	
 }
+
+.top{
+	width:100%;
+	left:0;
+}
+.top img { 
+
+	width:100%;
+	height:800px;
+
+}
+
 .starter-template {
 
 	padding: 40px 15px;
@@ -69,16 +68,7 @@ figure.websites:active {
 	text-align: center;
 }
 
-/*jwsleep image properties*/
 
-#jwsleep {
-
-	height: 400px;
-	width: 400px;
-	padding-top: 25px;
-	background-size: 600% 600%;
-
-}
 
 /*navigation box around welcome name*/
 
@@ -98,26 +88,46 @@ div #welcomeBlockquote {
 
 /*navigation button actions*/
 
-.navbar-static-top div {
+.navigation div {
 
-	background-color: #FF784F;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	/* ...and now for the proper property */
+  	transition:.5s;
+	color: #143109;
+	background-color: #B4B8AB;
 	margin-bottom: 25px;
 
 }
 
-.navbar-static-top div:hover {
+.navigation div:hover {
 	background-color: #E0EEC6;
 }
 
-.navbar-static-top div a{
-	color: #93032E;
+.navigation div a{
+	text-decoration: none;
+	color: #143109;
+
 }
-.navbar-static-top div a:hover {
+.navigation div a:hover {
 	color: #7A4419;
 }
 
 /*font color for all paragraphs*/
 div.row {
 	color: #143109;
+}
+
+footer {
+	
+	background: #000;
+	text-align: center;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+  
 }
 
