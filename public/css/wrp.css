@@ -68,8 +68,6 @@ figure img {
 	text-align: center;
 }
 
-
-
 /*navigation box around welcome name*/
 
 .navbar-static-top {
@@ -106,18 +104,25 @@ div #welcomeBlockquote {
 	background-color: #E0EEC6;
 }
 
-.navigation div a{
+.navigation div a {
+
 	text-decoration: none;
 	color: #143109;
 
 }
+
 .navigation div a:hover {
+
 	color: #7A4419;
+
 }
 
 /*font color for all paragraphs*/
+
 div.row {
+
 	color: #143109;
+	
 }
 
 footer {
@@ -130,4 +135,3 @@ footer {
 	width:100%;
   
 }
-

@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-# Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
-doc/
-*.swp
-*~
-.project
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
 .DS_Store
-.idea
-
-# Ignore vagrant files
-.vagrant/
-=======
-.DS_Store
->>>>>>> facf3ca0d21bfeb915c1bcda3b7e6409a945e415
